@@ -1,0 +1,126 @@
+body {
+	background-color: gray;
+	margin: 30px auto;
+}
+
+img {
+	width: 100%;
+	margin: 0px auto;
+}
+
+.project {
+    background-color: white;
+    max-width: 1150px;
+    margin: 10px auto;
+    border: 1px solid #DFDFDF;
+    padding: 20px 20px;
+}
+
+
+.caption{
+	font-family: Georgia, serif;
+	font-size: 12px;
+	color: dimgray;
+}
+.story-text {
+	font-family: Georgia, serif;
+	font-size: 18px;
+	max-width: 750px;
+	margin: 0px auto;
+}
+
+.deck-text {
+	font-family: Georgia, serif;
+	font-size: 18px;
+	max-width: 750px;
+	margin: 0px auto;
+	padding-bottom: 10px;
+}
+
+.TW {
+	font-family: Arial, sans-serif;
+	font-variant: small-caps;
+	font-size: 16px;
+	max-width: 750px;
+	margin: 0px auto;
+	padding-bottom: 10px;
+}
+
+.byline {
+	font-size: 18px;
+	max-width: 750px;
+	margin: 0px auto;
+	padding-bottom: 25px;
+}
+
+.subheaders {
+	max-width: 750px;
+	margin: 0px auto;
+	font-family: Helvetica, sans-serif;
+	font-size: 23px;
+	padding-top: 30px;
+}
+
+h1 {
+	max-width: 750px;
+	font-family: Helvetica, sans-serif;	
+	font-size: 25px;
+	margin: 0px auto;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+.data-viz {
+	max-width: 750px;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+
+.data-viz2{
+	max-width: 750px;
+	margin: 0px auto;
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	margin: 25px auto;
+}
+
+.additional-resources{
+	padding-top: 30px;
+	font-family: Helvetica, sans-serif;
+}
+
+.resources{
+    font-family: Georgia, serif;
+    border: 1px solid #DFDFDF;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 750px;
+}
+
+.white-text{
+	font-size: 10px;
+	color: white;
+}
+
+.more{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 10px;
+	margin: 25px auto;
+}
+
+@media (max-width: 700px) {
+    .more{
+        grid-template-columns: 1fr;
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .data-viz2{
+        grid-template-columns: 1fr;
+        margin: 0px 0px;
+    }
+}/*Your CSS goes here.*/
